@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url(./62869df175b62d403aee32dca74b6e4837899b16_Smeg\ Banner\ 03-en.jpg)
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
