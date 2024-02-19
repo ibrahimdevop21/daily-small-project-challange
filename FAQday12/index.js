@@ -6,5 +6,4 @@ toggleBtn.forEach((toggle) => {
   });
 });
 
-// ! This is not working for the most part
 // todo: visite dripple.com
